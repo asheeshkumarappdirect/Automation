@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Testing while starting browser]]>
+    </line>
+    <line>
+      <![CDATA[Selecting browser]]>
+    </line>
+    <line>
+      <![CDATA[Enter your choice]]>
+    </line>
+    <line>
+      <![CDATA[1.Chrome]]>
+    </line>
+    <line>
+      <![CDATA[2.Firefox]]>
+    </line>
+    <line>
+      <![CDATA[Selected ChromeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Browser found!]]>
+    </line>
+    <line>
+      <![CDATA[Testing homepage]]>
+    </line>
+    <line>
+      <![CDATA[HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Reading properties file]]>
+    </line>
+    <line>
+      <![CDATA[Testing SignUpPage]]>
+    </line>
+    <line>
+      <![CDATA[SignUpPage]]>
+    </line>
+    <line>
+      <![CDATA[Reading properties file]]>
+    </line>
+    <line>
+      <![CDATA[Testing EmailPage]]>
+    </line>
+    <line>
+      <![CDATA[Email page]]>
+    </line>
+    <line>
+      <![CDATA[Reading properties file]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36680" started-at="2017-04-10T19:49:01Z" finished-at="2017-04-10T19:49:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36680" started-at="2017-04-10T19:49:01Z" finished-at="2017-04-10T19:49:38Z">
+      <class name="com.AppDirect.Tests.PagesTest">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.AppDirect.Tests.PagesTest@224edc67]" name="StartBrowser" is-config="true" duration-ms="3198" started-at="2017-04-11T01:19:01Z" finished-at="2017-04-11T01:19:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing while starting browser]]>
+            </line>
+            <line>
+              <![CDATA[Selecting browser]]>
+            </line>
+            <line>
+              <![CDATA[Enter your choice]]>
+            </line>
+            <line>
+              <![CDATA[1.Chrome]]>
+            </line>
+            <line>
+              <![CDATA[2.Firefox]]>
+            </line>
+            <line>
+              <![CDATA[Selected ChromeBrowser]]>
+            </line>
+            <line>
+              <![CDATA[Browser found!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:com.AppDirect.Tests.PagesTest@224edc67]" name="HomePageTest" duration-ms="23652" started-at="2017-04-11T01:19:05Z" finished-at="2017-04-11T01:19:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing homepage]]>
+            </line>
+            <line>
+              <![CDATA[HomePage]]>
+            </line>
+            <line>
+              <![CDATA[Reading properties file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="SignUpPageTest()[pri:0, instance:com.AppDirect.Tests.PagesTest@224edc67]" name="SignUpPageTest" duration-ms="7521" started-at="2017-04-11T01:19:28Z" depends-on-methods="com.AppDirect.Tests.PagesTest.HomePageTest" finished-at="2017-04-11T01:19:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing SignUpPage]]>
+            </line>
+            <line>
+              <![CDATA[SignUpPage]]>
+            </line>
+            <line>
+              <![CDATA[Reading properties file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTest -->
+        <test-method status="PASS" signature="EmailPage()[pri:0, instance:com.AppDirect.Tests.PagesTest@224edc67]" name="EmailPage" duration-ms="213" started-at="2017-04-11T01:19:36Z" depends-on-methods="com.AppDirect.Tests.PagesTest.SignUpPageTest" finished-at="2017-04-11T01:19:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing EmailPage]]>
+            </line>
+            <line>
+              <![CDATA[Email page]]>
+            </line>
+            <line>
+              <![CDATA[Reading properties file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmailPage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.AppDirect.Tests.PagesTest@224edc67]" name="CloseBrowser" is-config="true" duration-ms="2084" started-at="2017-04-11T01:19:36Z" finished-at="2017-04-11T01:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.AppDirect.Tests.PagesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
